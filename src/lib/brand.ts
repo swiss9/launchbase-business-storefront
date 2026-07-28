@@ -1,0 +1,92 @@
+export const brandConfig = {
+  name: "Your Business Name",
+  tagline: "Premium Storefront",
+  logo: "",
+  favicon: "/favicon.ico",
+  colors: {
+    primary: "#111",
+    primaryLight: "#333",
+    secondary: "#fafafa",
+    dark: "#111",
+    light: "#fafafa",
+  },
+  fonts: {
+    heading: "Cinzel, serif",
+    body: "Inter, sans-serif",
+  },
+  nav: [
+    { label: "Collection", href: "#products", active: true },
+    { label: "Showroom", href: "#" },
+    { label: "Brand", href: "#about" },
+  ],
+  hero: {
+    title: "Discover timeless pieces for the modern connoisseur.",
+    subtitle: "Curated designs that blend artistry with function.",
+    cta: "Explore Collection",
+    ctaLink: "#products",
+    image: "",
+  },
+  services: [
+    {
+      name: "N°01 Obsidian Fragrance",
+      description: "Extract / 50ml",
+      price: 145,
+      image: "",
+      badge: "Limited",
+      icon: "sparkles",
+    },
+    {
+      name: "Bespoke Matte Cardholder",
+      description: "Full Grain Leather",
+      price: 210,
+      image: "",
+      icon: "wallet",
+    },
+    {
+      name: "Acetate Studio Frames",
+      description: "Handcrafted Silhouette",
+      price: 385,
+      image: "",
+      icon: "glasses",
+    },
+    {
+      name: "Monolithic Desk Chrono",
+      description: "Anodized Steel",
+      price: 620,
+      image: "",
+      icon: "watch",
+    },
+  ],
+  about: {
+    title: "Our Story",
+    content:
+      "Founded in 2015, we have been dedicated to bringing exceptional craftsmanship and timeless design to those who appreciate the finer things. Every piece is selected with care, ensuring quality and elegance in your daily life.",
+    image: "",
+  },
+  testimonials: [],
+  contact: {
+    email: "hello@example.com",
+    phone: "+1 (555) 123‑4567",
+    address: "123 Luxe Boulevard, New York, NY 10001",
+  },
+  footer: {
+    copyright: `© ${new Date().getFullYear()} Your Business Name. All rights reserved.`,
+    socials: {
+      instagram: "",
+      facebook: "",
+      x: "",
+      youtube: "",
+      whatsapp_channel: "",
+      telegram_channel: "",
+      discord_channel: "",
+      viber_channel: "",
+    },
+  },
+  chat: {
+    whatsapp: "",
+    telegram: "",
+    discord: "",
+    viber: "",
+  },
+  preferred_chat: "whatsapp",
+};
